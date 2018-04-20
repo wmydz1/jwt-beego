@@ -1,0 +1,4 @@
+openssl genrsa -out app.rsa 2048
+user rsa key
+openssl genrsa -out app.rsa keysize
+openssl rsa -in app.rsa -pubout > app.rsa.pub
